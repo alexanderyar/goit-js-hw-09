@@ -16,3 +16,37 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button {
+  /* display: block; */
+  background-color:green;
+  color: aliceblue;
+  margin-left: 50;
+  border-radius: 10%;
+}
+
+.timer {
+  justify-content: center;
+  padding-top: 30;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  font-size:larger;
+  display: flex;
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10%;
+}
+
+.field {
+  padding-right: 20;
+}
+
+
+.value {
+  font-weight: 700;
+}
+
+.label {
+  font-style: italic;
+}
