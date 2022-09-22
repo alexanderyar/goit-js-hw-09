@@ -4,7 +4,7 @@ const refs = {
   formEl: document.querySelector('form')
 }
 
-promise = null
+let promise = null
 
 // let promiseCount = null;
 // let firstDelay = null;
