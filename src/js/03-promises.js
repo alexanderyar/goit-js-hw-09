@@ -4,7 +4,7 @@ const refs = {
   formEl: document.querySelector('form')
 }
 
-
+promise = null
 
 // let promiseCount = null;
 // let firstDelay = null;
@@ -40,7 +40,7 @@ function onSubmit(e) {
 
 function createPromise(position, delay) {
 
-  return promise = new Promise((resolve, reject) => {
+  return  promise = new Promise((resolve, reject) => {
 
     const shouldResolve = Math.random() > 0.3;
 
